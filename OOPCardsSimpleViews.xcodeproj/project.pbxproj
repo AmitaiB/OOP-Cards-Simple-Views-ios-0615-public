@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		387B4DAA1B2B6710001F2C51 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387B4DAC1B2B6710001F2C51 /* Storyboard.storyboard */; };
 		722A9DD5194F4196000584F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722A9DD4194F4196000584F7 /* Foundation.framework */; };
 		722A9DD7194F4196000584F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722A9DD6194F4196000584F7 /* CoreGraphics.framework */; };
 		722A9DD9194F4196000584F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722A9DD8194F4196000584F7 /* UIKit.framework */; };
@@ -18,7 +19,6 @@
 		722A9DEF194F4196000584F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722A9DD4194F4196000584F7 /* Foundation.framework */; };
 		722A9DF0194F4196000584F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722A9DD8194F4196000584F7 /* UIKit.framework */; };
 		722A9DF8194F4196000584F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 722A9DF6194F4196000584F7 /* InfoPlist.strings */; };
-		72B59D87194F46AF0085942A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B59D86194F46AF0085942A /* Storyboard.storyboard */; };
 		72B59D8A194F4A850085942A /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B59D89194F4A850085942A /* PlayingCard.m */; };
 		72B59D8D194F4D0F0085942A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B59D8C194F4D0F0085942A /* Card.m */; };
 		72B59D90194F4D250085942A /* CardSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B59D8E194F4D250085942A /* CardSpec.m */; };
@@ -40,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		0A03BFFB26B2295930E7BEBD /* Pods-OOPCardsSimpleViewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OOPCardsSimpleViewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OOPCardsSimpleViewsTests/Pods-OOPCardsSimpleViewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		387B4DAB1B2B6710001F2C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
 		722A9DD1194F4196000584F7 /* OOPCardsSimpleViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OOPCardsSimpleViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		722A9DD4194F4196000584F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		722A9DD6194F4196000584F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,7 +56,6 @@
 		722A9DED194F4196000584F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		722A9DF5194F4196000584F7 /* OOPCardsSimpleViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OOPCardsSimpleViewsTests-Info.plist"; sourceTree = "<group>"; };
 		722A9DF7194F4196000584F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		72B59D86194F46AF0085942A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		72B59D88194F4A850085942A /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		72B59D89194F4A850085942A /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 		72B59D8B194F4D0F0085942A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 				72B59D88194F4A850085942A /* PlayingCard.h */,
 				72B59D89194F4A850085942A /* PlayingCard.m */,
 				722A9DE4194F4196000584F7 /* FISAppDelegate.m */,
-				72B59D86194F46AF0085942A /* Storyboard.storyboard */,
+				387B4DAC1B2B6710001F2C51 /* Storyboard.storyboard */,
 				72B59D92194F4E040085942A /* CardSwitcherViewController.h */,
 				72B59D93194F4E040085942A /* CardSwitcherViewController.m */,
 				722A9DE6194F4196000584F7 /* Images.xcassets */,
@@ -264,7 +264,7 @@
 			files = (
 				722A9DDF194F4196000584F7 /* InfoPlist.strings in Resources */,
 				722A9DE7194F4196000584F7 /* Images.xcassets in Resources */,
-				72B59D87194F46AF0085942A /* Storyboard.storyboard in Resources */,
+				387B4DAA1B2B6710001F2C51 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +345,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		387B4DAC1B2B6710001F2C51 /* Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387B4DAB1B2B6710001F2C51 /* en */,
+			);
+			name = Storyboard.storyboard;
+			sourceTree = "<group>";
+		};
 		722A9DDD194F4196000584F7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
