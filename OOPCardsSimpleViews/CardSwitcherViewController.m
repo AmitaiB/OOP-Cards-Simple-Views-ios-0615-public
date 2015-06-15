@@ -21,7 +21,7 @@
 @implementation CardSwitcherViewController
 
 -(void)updateUIWithCard:(PlayingCard *)myCard {
-    NSString *cardText = [NSString stringWithFormat:(@"%@ %@", myCard.rank, myCard.suit)];
+    NSString *cardText = [NSString stringWithFormat:@"%@ %@", myCard.rank, myCard.suit];
     self.topLabel.text = cardText;
     self.middleLabel.text = cardText;
     self.bottomLabel.text = cardText;
