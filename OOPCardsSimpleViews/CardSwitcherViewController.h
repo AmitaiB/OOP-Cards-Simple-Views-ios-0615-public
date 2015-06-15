@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlayingCard.h"
 
 @interface CardSwitcherViewController : UIViewController
 
+
+- (void)viewDidLoad;
+-(void)updateUIWithCard:(PlayingCard *)myCard;
+- (IBAction)threeOfSpades:(id)sender;
+- (IBAction)fourOfClubs:(id)sender;
+- (IBAction)eightOfDiamonds:(id)sender;
+- (IBAction)tenOfHearts:(id)sender;
 
 
 @end
